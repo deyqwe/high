@@ -2,15 +2,15 @@
 
 ## 📥 下载 JAR 文件
 
-**前往 [Releases](https://github.com/YOUR_USERNAME/MyPlugin/releases) 页面下载最新版本的JAR文件**
+**前往 [Releases](https://github.com/[你的用户名]/myplugin/releases) 页面下载最新版本的JAR文件**
 
 ## 🔧 从源码编译（可选）
 
 如果需要从源码编译：
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/MyPlugin.git
-cd MyPlugin
+git clone https://github.com/[你的用户名]/myplugin.git
+cd myplugin
 chmod +x build.sh
 ./build.sh
 ```
