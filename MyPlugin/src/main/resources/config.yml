@@ -1,0 +1,19 @@
+# MyPlugin 配置文件
+
+# 消息设置
+messages:
+  prefix: "&8[&6MyPlugin&8] "
+  heal-success: "&a你已经恢复了生命值!"
+  heal-other-success: "&a你已经治疗了 {player}!"
+  god-enabled: "&a上帝模式已启用!你现在无法受到伤害."
+  god-disabled: "&c上帝模式已禁用!你现在可以受到伤害了."
+  
+# 功能设置
+features:
+  heal-command-enabled: true
+  god-command-enabled: true
+  
+# 权限设置
+permissions:
+  heal-others-permission: "myplugin.heal.others"
+  god-permission: "myplugin.god"

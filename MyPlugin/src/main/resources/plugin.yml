@@ -1,0 +1,24 @@
+name: MyPlugin
+version: 1.0.0
+main: com.example.myplugin.MyPlugin
+api-version: '1.20'
+author: YourName
+description: A simple Minecraft plugin for 1.20.1
+
+commands:
+  heal:
+    description: 恢复玩家生命值
+    usage: /<command> [player]
+    permission: myplugin.heal
+  god:
+    description: 切换上帝模式
+    usage: /<command>
+    permission: myplugin.god
+
+permissions:
+  myplugin.heal:
+    description: 允许使用治疗命令
+    default: op
+  myplugin.god:
+    description: 允许使用上帝模式命令
+    default: op
